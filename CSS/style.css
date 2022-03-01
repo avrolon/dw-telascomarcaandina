@@ -109,10 +109,10 @@ header {
 /* NOSOTRAS */
 .bounce {
   position: absolute;
-  fill: #d4d4b1;
+  fill: #fefefe;
   height: auto;
   width: 60px;
-  left: 48%;
+  left: 10%;
   bottom: 0;
   animation-name: scroll;
   animation-duration: 1s;
@@ -402,7 +402,6 @@ footer {
   color: #f2f2f2;
   text-align: center;
 }
-/*ANIMACION*/
 
 /* MEDIA QUERIES*/
 
@@ -453,7 +452,8 @@ footer {
 }
 @media screen and (max-width: 500px) {
   .menu-navegacion {
-    width: 65vw;
+    width: 45vw;
+    line-height: 60px;
   }
   .agregar-imagen {
     width: 95%;
@@ -475,7 +475,7 @@ footer {
     width: 95%;
   }
   .social-media {
-    width: 50%;
+    width: 85%;
   }
   .contact-us {
     width: 90%;
