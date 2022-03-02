@@ -9,15 +9,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.contenedor {
-  width: 90%;
-  max-width: 1200px;
-  overflow: hidden;
-  margin: auto;
-  padding: 60px 0;
-}
-
-header {
+body header {
   height: 100vh;
   background-image: url(../IMG/fondo1.png);
   background-repeat: no-repeat;
@@ -26,27 +18,7 @@ header {
   background-position: center;
 }
 
-.head {
-  text-align: center;
-  padding: 0;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  color: #fff;
-}
-
-.hamburguer {
+body header .hamburguer {
   position: fixed;
   top: 30px;
   right: 30px;
@@ -59,7 +31,7 @@ header {
           box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
-.menu-navegacion {
+body header .menu-navegacion {
   position: fixed;
   top: 0;
   right: 0;
@@ -92,44 +64,75 @@ header {
   text-align: center;
 }
 
-.spread {
+body header .menu-navegacion .spread {
   -webkit-transform: translate(0);
           transform: translate(0);
 }
 
-.menu-navegacion a {
+body header .menu-navegacion a {
   color: #fff;
   text-decoration: none;
 }
 
-.nav__item {
+body header .menu-navegacion .nav__item {
   margin: 0 0 0 10px;
   list-style-type: none;
 }
 
-.nav__link {
+body header .menu-navegacion .nav__item .nav__link {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 800;
 }
 
-.nav__link:hover,
-.nav__link:focus {
+body header .menu-navegacion .nav__item .nav__link:hover {
   opacity: 0.65;
 }
 
-.titulo {
+body header .menu-navegacion .nav__item .nav__link:focus {
+  opacity: 0.65;
+}
+
+body header .contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+
+body header .contenedor .head {
+  text-align: center;
+  padding: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+}
+
+body header .contenedor .titulo {
   font-size: 60px;
   margin-bottom: 15px;
 }
 
-.copy {
+body header .contenedor .copy {
   font-weight: 600;
   font-size: 25px;
   text-align: center;
 }
 
-.logo {
+body header .contenedor .logo {
   text-align: center;
   padding: 0;
   width: 20%;
