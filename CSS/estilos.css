@@ -31,6 +31,38 @@ body header .hamburguer {
           box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
+body header .nav__item {
+  margin: 0 0 0 10px;
+  list-style-type: none;
+}
+
+body header .nav__item .nav__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+body header .nav__item .nav__link:hover {
+  opacity: 0.65;
+}
+
+body header .nav__item .nav__link:focus {
+  opacity: 0.65;
+}
+
+body header .hamburguer {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
 body header .menu-navegacion {
   position: fixed;
   top: 0;
@@ -64,33 +96,14 @@ body header .menu-navegacion {
   text-align: center;
 }
 
-body header .menu-navegacion .spread {
+body header .spread {
   -webkit-transform: translate(0);
           transform: translate(0);
 }
 
-body header .menu-navegacion a {
+body header a {
   color: #fff;
   text-decoration: none;
-}
-
-body header .menu-navegacion .nav__item {
-  margin: 0 0 0 10px;
-  list-style-type: none;
-}
-
-body header .menu-navegacion .nav__item .nav__link {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 800;
-}
-
-body header .menu-navegacion .nav__item .nav__link:hover {
-  opacity: 0.65;
-}
-
-body header .menu-navegacion .nav__item .nav__link:focus {
-  opacity: 0.65;
 }
 
 body header .contenedor {
@@ -101,7 +114,7 @@ body header .contenedor {
   padding: 60px 0;
 }
 
-body header .contenedor .head {
+body header .head {
   text-align: center;
   padding: 0;
   height: 100%;
@@ -121,18 +134,18 @@ body header .contenedor .head {
   color: #fff;
 }
 
-body header .contenedor .titulo {
+body header .titulo {
   font-size: 60px;
   margin-bottom: 15px;
 }
 
-body header .contenedor .copy {
+body header .copy {
   font-weight: 600;
   font-size: 25px;
   text-align: center;
 }
 
-body header .contenedor .logo {
+body header .logo {
   text-align: center;
   padding: 0;
   width: 20%;
