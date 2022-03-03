@@ -1,47 +1,6 @@
 @import "fuentes";
 @import "index";
-
-/* NOSOTRAS */
-.bounce {
-  position: absolute;
-  fill: #fefefe;
-  height: auto;
-  width: 60px;
-  left: 10%;
-  bottom: 0;
-  animation-name: scroll;
-  animation-duration: 1s;
-  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
-  animation-iteration-count: infinite;
-  animation: scroll 1s cubic-bezier(0.15, 0.41, 0.69, 0.94) infinite;
-}
-
-@keyframes scroll {
-  0% {
-    bottom: 10;
-  }
-  70% {
-    bottom: 15px;
-  }
-  100% {
-    bottom: 30;
-  }
-}
-
-/* ESTILOS SCROLLBAR */
-::-webkit-scrollbar {
-  width: 15px;
-}
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-  background: #d4d4b1;
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #b5d88f;
-}
+@import "scrollbar.scss";
 
 .subtitulo {
   text-align: center;
