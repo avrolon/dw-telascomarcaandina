@@ -373,85 +373,6 @@ body header .logo {
   margin-top: 20px;
 }
 
-footer {
-  background: #b5d88f;
-  padding-bottom: 0.1px;
-}
-
-.footer-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding-top: 40px;
-  padding-bottom: 30px;
-}
-
-.contact-us {
-  width: 40%;
-  color: #fff;
-}
-
-.brand {
-  font-weight: 500;
-  font-size: 40px;
-}
-
-.brand + p {
-  font-weight: 500;
-}
-
-.social-media {
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.social-media-icon {
-  display: inline-block;
-  margin-left: 20px;
-  width: 60px;
-  height: 60px;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  text-align: center;
-  color: #fff;
-}
-
-.social-media-icon:hover {
-  background: #fff;
-  color: #b5d88f;
-}
-
-.social-media-icon i {
-  font-size: 30px;
-  line-height: 60px;
-}
-
-.line {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  height: 2px;
-  background: #fff;
-  margin-bottom: 60px;
-  font-size: 12px;
-  color: #f2f2f2;
-  text-align: center;
-}
-
-/* GALERIA DE PROYECTOS */
 .galeria {
   background: #f2f2f2;
 }
@@ -566,7 +487,6 @@ footer {
   font-weight: 400;
 }
 
-/* GRID - CONTACTO */
 .myForm {
   display: -ms-grid;
   display: grid;
@@ -631,7 +551,6 @@ footer {
   text-align: center;
 }
 
-/* ANIMACION */
 h4 {
   text-align: center;
   margin-bottom: 5px;
@@ -665,5 +584,91 @@ h4 {
   100% {
     opacity: 2;
   }
+}
+
+footer {
+  background: #b5d88f;
+  padding-bottom: 0.1px;
+}
+
+footer .contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+
+footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+footer .footer-content .contact-us {
+  width: 40%;
+  color: #fff;
+}
+
+footer .footer-content .brand {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+footer .footer-content .brand + p {
+  font-weight: 500;
+}
+
+footer .social-media {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .social-media .social-media-icon {
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+footer .social-media .social-media-icon:hover {
+  background: #fff;
+  color: #b5d88f;
+}
+
+footer .social-media .social-media-icon i {
+  font-size: 30px;
+  line-height: 60px;
+}
+
+footer .line {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 60px;
+  font-size: 12px;
+  color: #f2f2f2;
+  text-align: center;
 }
 /*# sourceMappingURL=estilos.css.map */
