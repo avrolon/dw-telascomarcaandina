@@ -307,6 +307,14 @@ body header .logo {
   background: #b5d88f;
 }
 
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+
 .subtitulo {
   text-align: center;
   font-weight: 400;
@@ -371,6 +379,14 @@ body header .logo {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 20px;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
 }
 
 .galeria {
@@ -485,6 +501,14 @@ body header .logo {
   margin-top: 20px;
   width: 50%;
   font-weight: 400;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
 }
 
 .myForm {
