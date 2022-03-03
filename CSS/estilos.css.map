@@ -5,7 +5,7 @@
         "../estilos/estilos.scss",
         "../estilos/_fuentes.scss",
         "../estilos/_index.scss",
-        "../estilos/scrollbar.scss"
+        "../estilos/_scrollbar.scss"
     ],
     "names": [],
     "file": "estilos.css"
