@@ -351,12 +351,12 @@ body header .logo {
   font-size: 20px;
 }
 
-.n-service {
+.service .n-service {
   margin-bottom: 10px;
   color: #b5d88f;
 }
 
-.number {
+.service .n-service .number {
   display: inline-block;
   background-color: #b5d88f;
   width: 30px;
@@ -369,7 +369,7 @@ body header .logo {
   margin-right: 5px;
 }
 
-.contenedor-galeria-1 {
+.service .contenedor-galeria, .service .contenedor-galeria-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -393,7 +393,7 @@ body header .logo {
   background: #f2f2f2;
 }
 
-.contenedor-galeria {
+.contenedor-galeria, .service .contenedor-galeria-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -644,12 +644,12 @@ footer .footer-content .contact-us {
   color: #fff;
 }
 
-footer .footer-content .brand {
+footer .footer-content .contact-us .brand {
   font-weight: 500;
   font-size: 40px;
 }
 
-footer .footer-content .brand + p {
+footer .footer-content .contact-us .p {
   font-weight: 500;
 }
 
