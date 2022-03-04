@@ -134,12 +134,12 @@ body header .nav__item .nav__link:focus {
 }
 
 body header .hamburguer {
+  width: 40px;
+  height: 40px;
   position: fixed;
   top: 30px;
   right: 30px;
   background: #fff;
-  width: 40px;
-  height: 40px;
   cursor: pointer;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
@@ -649,7 +649,7 @@ footer .footer-content .contact-us .brand {
   font-size: 40px;
 }
 
-footer .footer-content .contact-us .p {
+footer .footer-content .contact-us .brand + p {
   font-weight: 500;
 }
 
