@@ -1,0 +1,20 @@
+{
+  "name": "tca_v5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch estilos/estilos.scss css/estilos.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avrolon/proyecto_TCA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avrolon/proyecto_TCA/issues"
+  },
+  "homepage": "https://github.com/avrolon/proyecto_TCA#readme"
+}
