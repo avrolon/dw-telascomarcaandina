@@ -1,7 +1,7 @@
 {
-  "name": "tca_v5",
+  "name": "dw-telascomarcaandina",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio web creado para Telas Comarca Andina",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch estilos/estilos.scss css/estilos.css"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/avrolon/proyecto_TCA.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrea Vanina Rolon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/avrolon/proyecto_TCA/issues"
