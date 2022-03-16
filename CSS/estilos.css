@@ -26,7 +26,7 @@
   }
 
   .img-galeria {
-    width: 60%;
+    width: 45%;
   }
 
   .cont-expert {
@@ -58,7 +58,7 @@
 }
 @media screen and (max-width: 500px) {
   .menu-navegacion {
-    width: 45vw;
+    width: 65vw;
     line-height: 60px;
   }
 
@@ -88,7 +88,7 @@
   }
 
   .social-media {
-    width: 85%;
+    width: 100%;
   }
 
   .contact-us {
