@@ -252,13 +252,13 @@ body header .logo {
   text-align: center;
   font-weight: 400;
   color: #b5d88f;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   font-size: 40px;
 }
 
 .contenedor-servicio {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -268,7 +268,7 @@ body header .logo {
 }
 
 .check-servicio {
-  width: 75%;
+  width: 45%;
 }
 
 .service {
@@ -298,32 +298,6 @@ body header .logo {
   flex-wrap: wrap;
   margin-top: 20px;
 }
-.contenedor {
-  width: 90%;
-  max-width: 1200px;
-  overflow: hidden;
-  margin: auto;
-  padding: 60px 0;
-}
-.contenedor .experts {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.contenedor .cont-expert {
-  width: 90%;
-  height: 60%;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.contenedor .n-expert {
-  display: inline-block;
-  margin-top: 20px;
-  width: 50%;
-  font-weight: 400;
-}
-
 .contenedor {
   width: 90%;
   max-width: 1200px;
@@ -387,6 +361,36 @@ body header .logo {
   right: 15px;
   width: 40px;
   cursor: pointer;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+.contenedor .experts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contenedor .cont-expert {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contenedor .cont-expert img {
+  width: 80%;
+  display: block;
+  margin-bottom: 0 auto;
+}
+.contenedor .n-expert {
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+  font-weight: 400;
 }
 
 .contenedor {
