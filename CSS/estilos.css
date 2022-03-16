@@ -294,6 +294,9 @@ body header .logo {
   flex-wrap: wrap;
   margin-top: 20px;
 }
+.service .contenedor-galeria img {
+  margin: 10px;
+}
 
 .contenedor {
   width: 90%;
