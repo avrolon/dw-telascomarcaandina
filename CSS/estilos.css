@@ -263,12 +263,8 @@ body header .logo {
   flex-wrap: wrap;
 }
 
-.contenedor-servicio img {
-  width: 30%;
-}
-
 .check-servicio {
-  width: 45%;
+  width: 90%;
 }
 
 .service {
@@ -292,12 +288,13 @@ body header .logo {
   line-height: 30px;
   margin-right: 5px;
 }
-.service .contenedor-galeria, .service .contenedor-galeria-1 {
+.service .contenedor-galeria {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 20px;
 }
+
 .contenedor {
   width: 90%;
   max-width: 1200px;
@@ -310,7 +307,7 @@ body header .logo {
   background: #f2f2f2;
 }
 
-.contenedor-galeria, .service .contenedor-galeria-1 {
+.contenedor-galeria {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;

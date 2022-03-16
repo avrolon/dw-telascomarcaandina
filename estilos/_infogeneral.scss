@@ -19,11 +19,8 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.contenedor-servicio img {
-  width: 30%;
-}
 .check-servicio {
-  width: 45%;
+  width: 90%;
 }
 .service {
   margin-top: 20px;
@@ -50,8 +47,5 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 20px;
-  }
-  .contenedor-galeria-1 {
-    @extend .contenedor-galeria;
   }
 }
