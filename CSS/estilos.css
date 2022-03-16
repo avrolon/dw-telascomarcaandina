@@ -142,7 +142,7 @@ body header .menu-navegacion {
   position: fixed;
   top: 0;
   right: 0;
-  width: 18vw;
+  width: 30vw;
   height: 100%;
   background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
   display: flex;
