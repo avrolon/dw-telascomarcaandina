@@ -142,7 +142,7 @@ body header .menu-navegacion {
   position: fixed;
   top: 0;
   right: 0;
-  width: 30vw;
+  width: 40vw;
   height: 100%;
   background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
   display: flex;
@@ -494,7 +494,6 @@ footer .footer-content {
   padding-bottom: 30px;
 }
 footer .footer-content .contact-us {
-  width: 40%;
   color: #fff;
 }
 footer .footer-content .contact-us .brand {
@@ -504,12 +503,10 @@ footer .footer-content .contact-us .brand {
 footer .footer-content .contact-us .brand + p {
   font-weight: 500;
 }
-footer .social-media {
-  width: 50%;
+footer .footer-content .social-media {
   display: flex;
-  justify-content: flex-end;
 }
-footer .social-media .social-media-icon {
+footer .footer-content .social-media .social-media-icon {
   display: inline-block;
   margin-left: 20px;
   width: 60px;
@@ -519,11 +516,11 @@ footer .social-media .social-media-icon {
   text-align: center;
   color: #fff;
 }
-footer .social-media .social-media-icon:hover {
+footer .footer-content .social-media .social-media-icon:hover {
   background: #fff;
   color: #b5d88f;
 }
-footer .social-media .social-media-icon i {
+footer .footer-content .social-media .social-media-icon i {
   font-size: 30px;
   line-height: 60px;
 }
