@@ -41,7 +41,7 @@ body {
       position: fixed;
       top: 0;
       right: 0;
-      width: 40vw;
+      width: 35vw;
       height: 100%;
       background-image: $background-image;
       display: flex;
@@ -53,6 +53,7 @@ body {
       box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
       line-height: 75px;
       text-align: center;
+      font-size: 12px;
     }
     .spread {
       transform: translate(0);
