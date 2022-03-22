@@ -89,6 +89,7 @@
 
   .social-media {
     width: 100%;
+    justify-content: space-evenly;
   }
 
   .contact-us {
@@ -480,26 +481,27 @@ footer .contenedor {
 }
 footer .footer-content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   padding-top: 40px;
   padding-bottom: 30px;
 }
-footer .footer-content .contact-us {
+footer .contact-us {
   color: #fff;
 }
-footer .footer-content .contact-us .brand {
+footer .contact-us .brand {
   font-weight: 500;
   font-size: 40px;
 }
-footer .footer-content .contact-us .brand + p {
+footer .contact-us .brand + p {
   font-weight: 500;
 }
-footer .footer-content .social-media {
+footer .social-media {
+  width: 50%;
   display: flex;
+  justify-content: flex-end;
 }
-footer .footer-content .social-media .social-media-icon {
+footer .social-media .social-media-icon {
   display: inline-block;
   margin-left: 20px;
   width: 60px;
@@ -509,11 +511,11 @@ footer .footer-content .social-media .social-media-icon {
   text-align: center;
   color: #fff;
 }
-footer .footer-content .social-media .social-media-icon:hover {
+footer .social-media .social-media-icon:hover {
   background: #fff;
   color: #b5d88f;
 }
-footer .footer-content .social-media .social-media-icon i {
+footer .social-media .social-media-icon i {
   font-size: 30px;
   line-height: 60px;
 }

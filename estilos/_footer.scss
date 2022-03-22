@@ -10,41 +10,42 @@ footer {
   }
   .footer-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding-top: 40px;
     padding-bottom: 30px;
-    .contact-us {
-      color: #fff;
-      .brand {
-        font-weight: 500;
-        font-size: 40px;
-      }
-      .brand + p {
-        font-weight: 500;
-      }
+  }
+  .contact-us {
+    color: #fff;
+    .brand {
+      font-weight: 500;
+      font-size: 40px;
     }
-    .social-media {
-      display: flex;
-      .social-media-icon {
-        display: inline-block;
-        margin-left: 20px;
-        width: 60px;
-        height: 60px;
-        border: 1px solid #fff;
-        border-radius: 50%;
-        text-align: center;
-        color: #fff;
-      }
-      .social-media-icon:hover {
-        background: #fff;
-        color: #b5d88f;
-      }
-      .social-media-icon i {
-        font-size: 30px;
-        line-height: 60px;
-      }
+    .brand + p {
+      font-weight: 500;
+    }
+  }
+  .social-media {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    .social-media-icon {
+      display: inline-block;
+      margin-left: 20px;
+      width: 60px;
+      height: 60px;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      text-align: center;
+      color: #fff;
+    }
+    .social-media-icon:hover {
+      background: #fff;
+      color: #b5d88f;
+    }
+    .social-media-icon i {
+      font-size: 30px;
+      line-height: 60px;
     }
   }
   .line {
