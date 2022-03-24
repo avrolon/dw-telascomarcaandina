@@ -10,7 +10,6 @@ footer {
   }
   .footer-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding-top: 40px;
@@ -27,9 +26,8 @@ footer {
     }
   }
   .social-media {
-    width: 50%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     .social-media-icon {
       display: inline-block;
       margin-left: 20px;

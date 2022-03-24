@@ -29,10 +29,6 @@
     width: 45%;
   }
 
-  .cont-expert {
-    width: 80%;
-  }
-
   .footer-content {
     justify-content: center;
   }
@@ -80,10 +76,6 @@
   }
 
   .img-galeria {
-    width: 95%;
-  }
-
-  .cont-expert {
     width: 95%;
   }
 
@@ -481,7 +473,6 @@ footer .contenedor {
 }
 footer .footer-content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   padding-top: 40px;
@@ -498,9 +489,8 @@ footer .contact-us .brand + p {
   font-weight: 500;
 }
 footer .social-media {
-  width: 50%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 footer .social-media .social-media-icon {
   display: inline-block;
