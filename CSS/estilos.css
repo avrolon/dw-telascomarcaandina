@@ -34,7 +34,6 @@
   }
 
   .social-media {
-    width: 80%;
     justify-content: space-evenly;
   }
 
@@ -80,7 +79,6 @@
   }
 
   .social-media {
-    width: 100%;
     justify-content: space-evenly;
   }
 
@@ -489,9 +487,9 @@ footer .contact-us .brand + p {
   font-weight: 500;
 }
 footer .social-media {
-  width: 65%;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 footer .social-media .social-media-icon {
   display: inline-block;
