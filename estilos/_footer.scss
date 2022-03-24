@@ -26,8 +26,9 @@ footer {
     }
   }
   .social-media {
+    width: 65%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     .social-media-icon {
       display: inline-block;
       margin-left: 20px;

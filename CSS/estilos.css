@@ -489,8 +489,9 @@ footer .contact-us .brand + p {
   font-weight: 500;
 }
 footer .social-media {
+  width: 65%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 footer .social-media .social-media-icon {
   display: inline-block;
